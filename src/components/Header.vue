@@ -6,11 +6,11 @@
       </a>
       <div class="banner-menu">
         <ul>
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-          <li>Sit</li>
-          <li>Amet</li>
+          <li><a href="">Présentation</a></li>
+          <li><a href="">Parcours</a></li>
+          <li><a href="">Portefolio</a></li>
+          <li><a href="">Compétences</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </div>
     </div>

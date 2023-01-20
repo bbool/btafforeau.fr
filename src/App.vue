@@ -14,12 +14,19 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
 body {
+  font-family: 'Oswald', sans-serif;
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
