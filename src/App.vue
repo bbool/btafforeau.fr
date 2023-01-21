@@ -1,15 +1,18 @@
 <template>
-  <HeaderComp/>
+  <Header/>
+  <div class="content">
+    <router-view/>
+  </div>
 </template>
 
 <script>
-import HeaderComp from './components/Header.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderComp
-  }
+    Header
+  },
 }
 </script>
 

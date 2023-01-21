@@ -6,11 +6,11 @@
       </a>
       <div class="banner-menu">
         <ul>
-          <li><a href="">Présentation</a></li>
-          <li><a href="">Parcours</a></li>
-          <li><a href="">Portefolio</a></li>
-          <li><a href="">Compétences</a></li>
-          <li><a href="">Contact</a></li>
+          <li><router-link to="/about">A propos</router-link></li>
+          <li><a href="/course">Parcours</a></li>
+          <li><a href="/portfolio">Portefolio</a></li>
+          <li><a href="/skills">Compétences</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: "HeaderComp"
+  name: "HeaderComp",
 }
 </script>
 
